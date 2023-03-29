@@ -10,7 +10,7 @@ public class percabangan {
 
         //if-else
         //cek syarat pembuatan KTP
-        int usia=0;
+        int usia;
         System.out.println("Masukkan usia anda : ");
         usia = Integer.parseInt(br.readLine());
                 if (usia >=17) {
@@ -74,4 +74,4 @@ public class percabangan {
         }
     }
 
-    
+
